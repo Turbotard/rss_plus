@@ -3,7 +3,7 @@ import { AppProps } from "next/app";
 import Link from "next/link";
 import styles from './Page.module.css'; 
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({}: AppProps) {
   return (
     <div className={styles.center}>
       
